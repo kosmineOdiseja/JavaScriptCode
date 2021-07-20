@@ -1,4 +1,4 @@
-export default class User{
+module.export default class User{
 	constructor(first, last){
 		this.first = first
 		this.last = last 
