@@ -21,3 +21,22 @@ const numbers = ['1', '2', '3', '4', '5', '6']
 	// const newArray = alphabet.concat(numbers) the same, but problem with objects
 	 const newArray = [...alphabet, ...numbers]
 	console.log(newArray)
+
+	function sumAndMultiply(a,b) {
+		return [a+b, a*b]
+
+	}
+	const array = sumAndMultiply(2, 3)
+	console.log(array)
+
+	const [sum, multiply] = sumAndMultiply(2, 3)
+
+	// other example 
+
+	function sumAndMultiply(a, b) {
+		return[a+b, a*b] // add or remove a/b
+	}	
+
+	const [sum1, multiply1] = sumAndMultiply(2, 3) // add or remove third property division = ' no division '	
+
+	//console.log(division)  colsole show: no division 
