@@ -40,3 +40,26 @@ const numbers = ['1', '2', '3', '4', '5', '6']
 	const [sum1, multiply1] = sumAndMultiply(2, 3) // add or remove third property division = ' no division '	
 
 	//console.log(division)  colsole show: no division 
+
+	const personOne = {
+		name: 'Alius',
+		age: 34,
+		address: {
+			city: 'Kaunas',
+			street: 'naujoji g.'
+		}
+	}
+
+	const personTwo = {
+		name: 'Jonas', 
+		age: 30,
+		address: {
+			city: 'Vilnius', 
+			street: 'Geguzio g.'
+		}
+
+	}
+
+	const { name: firstName, age } = personTwo
+	console.log(firstName) // or other way console.log(name)
+	console.log(age)
