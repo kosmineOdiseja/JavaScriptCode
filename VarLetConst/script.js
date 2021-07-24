@@ -1,4 +1,4 @@
-console.log('var =============================')
+console.log('var =========')
 
 // var variable 
 // var variable galima pakeisti value, 
@@ -18,19 +18,20 @@ var variablePries = 'this is variable'
 console.log(variablePries)
 
 
-console.log('let =============================')
+console.log('let ===========')
 // Let variable skirtumas 
 if (true) {
 	let letVariable = 'This is true'
 	console.log(letVariable)
 }
 // console.log(letVariable)
-
+let letVariable = 'this is false'
+console.log(letVariable)
 let skai = 'true'
 // let skai = 'false'
 
 
-console.log('const =============================')
+console.log('const ============')
 
 const constVar = 1
 let letVar = 1
@@ -43,5 +44,6 @@ const constName = {name: 'Alius'}
 
 constName.name = 'Laura'
 console.log(constName)
+console.log(constName.name)
 
 
