@@ -27,3 +27,5 @@ changeColor(grandparent)
 function changeColor(element){
 	element.style.backgroundColor = '#888'
 }
+
+// more info https://www.youtube.com/watch?v=v7rSSy8CaYE&ab_channel=WebDevSimplified
