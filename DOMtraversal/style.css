@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: .5rem;
+  padding: 1rem;
+  border: 3px solid black;
+  min-height: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.grandparent {
+  background-color: #bf4040;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.parent {
+  background-color: #6abf40;
+}
+
+.child {
+  background-color: #4095bf;
+}
+/*# sourceMappingURL=style.css.map */
