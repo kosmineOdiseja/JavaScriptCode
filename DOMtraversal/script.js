@@ -1,12 +1,14 @@
 // const grandparent = document.getElementById("grandparent-id")
 const grandparent = document.querySelector(".grandparent")
-const parents = Array.from(grandparent.children) 
-const parentOne = parents[1]
-	
-const children = parentOne.children
+// const parents = Array.from(grandparent.children) 
+// const parentsOne = parents[0]
+const children = grandparent.querySelectorAll(".child")
+	children.forEach(changeColor)
+//changeColor(children)
+
+// const children = parentOne.children
 
 
-changeColor(children[1])
 //parents.forEach(children[0])
 // chnst grandparent = document.querySelector(".grandparent")
 
