@@ -11,7 +11,16 @@
 
 // body.appendChild(div) // We can use appendChild - nes tai yra HTML node, bet geriau naudoti append.
 
-const div = document.querySelector("div")
+// const div = document.querySelector("div")
 
-console.log(div.textContent)
-console.log(div.innerText)
+// console.log(div.textContent)
+// console.log(div.innerText)
+
+const body = document.body
+const div = document.createElement('div')
+const strong = document.createElement("strong")
+
+strong.append(strong)
+
+body.append(div)
+
