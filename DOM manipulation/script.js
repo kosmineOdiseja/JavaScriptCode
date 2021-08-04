@@ -13,14 +13,27 @@
 
 // const div = document.querySelector("div")
 
-// console.log(div.textContent)
+// console.log(div.textContent) 
 // console.log(div.innerText)
 
+
+// new section 
+// const body = document.body
+// const div = document.createElement('div')
+// const strong = document.createElement("strong")
+// strong.innerText = "Hello World 2"
+// div.append(strong)
+
+// body.append(div)
+
+//new section 
+
 const body = document.body
-const div = document.createElement('div')
-const strong = document.createElement("strong")
+const div = document.querySelector('div')
+const spanHi = document.querySelector("#hi")
+const spanBye = document.querySelector("#bye")
 
-strong.append(strong)
-
-body.append(div)
-
+spanBye.remove() // completely removes from HTML document
+// div.removechild(spanHi)
+// after remove we can add it again 
+div.append(spanBye)
