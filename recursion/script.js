@@ -28,3 +28,35 @@ function sumRangeRecursive(number, total = 0) {
 		return sumRangeRecursive( number - 1, total + number )
 	
 }
+
+function printChildren(t) {
+	// ??? 
+
+}
+
+function printChildrenRecursive(t) {
+	if (t.children.length === 0) {
+		return
+	}
+	t.children.forEach(child => {
+		console.log(child.name)
+		printChildrenRecursive(child)
+	})
+}
+
+const tree = {
+	name: 'Jonas', 
+	children: [
+		{
+			name: 'Jim', 
+			children: []
+		}, 
+		{
+			name: 'Zoe', 
+			children: [
+				{ name: 'Kyle', children: [] },  
+				{ name: 'Sophia', children: [] }
+			]
+		}
+	]
+}
