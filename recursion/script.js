@@ -11,3 +11,20 @@ function countDownRecursive(number) {
 	}
 }
 countDownRecursive(3)
+
+// more practical recursion example
+function sumRange(number) {
+	let total = 0
+	for (let i = number; i > 0; i--) {
+		total += i
+	} 
+	return total
+}
+
+function sumRangeRecursive(number, total = 0) {
+	if (number <= 0 )  {
+		return total
+	} 
+		return sumRangeRecursive( number - 1, total + number )
+	
+}
